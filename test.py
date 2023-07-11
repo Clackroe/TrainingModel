@@ -6,4 +6,5 @@ with open("SmallData/conversations.py", "w+") as f:
 
     for item in data:
         choice = random.choice(["train", "test", "val"])
-        item['split'] = choice
+        item['meta']['split'] = choice
+    f.write(json.dumps(data))
