@@ -51,11 +51,11 @@ clip = 50.0  # Maximum gradient cutoff during training
 teacher_forcing_ratio = 1.0
 learning_rate = 0.0001  # Learning rate to use during pre-training
 labeled_learning_rate = 1e-5  # Learning rate to use during fine-tuning
-decoder_learning_ratio = 5.0  # Learning rate multiplier on the decoder layers
+decoder_learning_ratio = 5.0  # Learning rate multiplier on the decolder layers
 # How often to print output to the screen (measured in training iterations)
 print_every = 10
 # CRAFT score above which the forecast is considered positive. The default values were tuned on validation data for each corpus.
-forecast_thresh = 0.570617 if corpus_name == "LargeData" else 0.707984
+forecast_thresh = 0.570617 if corpus_name == "wikiconv" else 0.707984
 
 # Default word tokens
 PAD_token = 0  # Used for padding short sentences
