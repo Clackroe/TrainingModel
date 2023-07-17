@@ -9,7 +9,12 @@
         "author": "williewillus",
         "comments": 5,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT1": {
         "title": "Cherry pick of #89858: kube-apiserver should exit with error if not able to connect to etcd",
@@ -21,7 +26,12 @@
         "author": "nilo19",
         "comments": 8,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT2": {
         "title": "[Prototype] [Do NOT Merge] Binary Metal Archive Prototype for iOS/Mac.",
@@ -33,7 +43,12 @@
         "author": "chinmaygarde",
         "comments": 57,
         "repository": "flutter/engine",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT3": {
         "title": "Remember 5-6 months ago before C#?",
@@ -45,7 +60,12 @@
         "author": "ghost",
         "comments": 10,
         "repository": "godotengine/godot",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT4": {
         "title": "All challenge progress lost",
@@ -57,7 +77,12 @@
         "author": "mkamri",
         "comments": 5,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT5": {
         "title": "Old git tag is displayed when there's newer one",
@@ -69,7 +94,12 @@
         "author": "vanniktech",
         "comments": 15,
         "repository": "refined-github/refined-github",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT6": {
         "title": "Implement an alternative to startup running twice when using WebApplicationFactory",
@@ -81,7 +111,12 @@
         "author": "pdevito3",
         "comments": 16,
         "repository": "dotnet/aspnetcore",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT7": {
         "title": "Vagrant box downloads extremely slow",
@@ -93,7 +128,12 @@
         "author": "spkane",
         "comments": 112,
         "repository": "hashicorp/vagrant",
-        "derailPoint": "17"
+        "derailPoint": "17",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "17"
+        }
     },
     "ROOT8": {
         "title": "Extra forward slash in URLs when config[\"url\"] has a trailing forward slash",
@@ -105,7 +145,12 @@
         "author": "inconvergent",
         "comments": 4,
         "repository": "jekyll/jekyll",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT9": {
         "title": "How to copy text? Ctrl + C isn't working?",
@@ -117,7 +162,12 @@
         "author": "dazinator",
         "comments": 22,
         "repository": "microsoft/terminal",
-        "derailPoint": "11"
+        "derailPoint": "11",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "11"
+        }
     },
     "ROOT10": {
         "title": "Include Ctrl+C, Ctrl+V keybindings by default",
@@ -129,7 +179,12 @@
         "author": "kzu",
         "comments": 33,
         "repository": "microsoft/terminal",
-        "derailPoint": "17"
+        "derailPoint": "17",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "17"
+        }
     },
     "ROOT11": {
         "title": "ZHA & ptvo.info bmp280",
@@ -141,7 +196,12 @@
         "author": "pruwait",
         "comments": 9,
         "repository": "home-assistant/core",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT12": {
         "title": "'Efficiently encode images' showing wrong sizes / potential savings",
@@ -153,7 +213,12 @@
         "author": "torian257x",
         "comments": 4,
         "repository": "GoogleChrome/lighthouse",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT13": {
         "title": "multithread example service + remove unnecessary template from codegen",
@@ -165,7 +230,12 @@
         "author": "GallagherCommaJack",
         "comments": 9,
         "repository": "google/tarpc",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT14": {
         "title": "Why does WinAppDriver.exe require developer mode?",
@@ -177,7 +247,12 @@
         "author": "amervitz",
         "comments": 13,
         "repository": "microsoft/WinAppDriver",
-        "derailPoint": "12"
+        "derailPoint": "12",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "12"
+        }
     },
     "ROOT15": {
         "title": "[BUG] Cannot successfully setup dev cluster locally: \"No cluster endpoint is reachable, please check if there is connectivity/firewall/DNS issue.\"",
@@ -189,7 +264,12 @@
         "author": "emmet-m",
         "comments": 10,
         "repository": "microsoft/service-fabric",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT16": {
         "title": "Add event to allow for rendering additional overlays on items in guis",
@@ -201,7 +281,12 @@
         "author": "ExpensiveKoala",
         "comments": 8,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT17": {
         "title": "Allow to use subset of Array values as type",
@@ -213,7 +298,12 @@
         "author": "ORESoftware",
         "comments": 5,
         "repository": "microsoft/TypeScript",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT18": {
         "title": "Clean list_rish_do_not_change.md",
@@ -225,7 +315,12 @@
         "author": "Agrover112",
         "comments": 2,
         "repository": "M-68/meta_resource",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT19": {
         "title": "Screen margins and scrolling regions are acting strange for the JOE editor",
@@ -237,7 +332,12 @@
         "author": "JJussi",
         "comments": 22,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT20": {
         "title": "Color Setting not working",
@@ -249,7 +349,12 @@
         "author": "huangzonghao",
         "comments": 7,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT21": {
         "title": "Distributed Version",
@@ -261,7 +366,12 @@
         "author": "jermainewang",
         "comments": 54,
         "repository": "tensorflow/tensorflow",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT22": {
         "title": "change keyframe value \"frame:\" when SpriteNode->Animation->HFrames changes",
@@ -273,7 +383,12 @@
         "author": "metaphoricalsasquash",
         "comments": 33,
         "repository": "godotengine/godot",
-        "derailPoint": "13"
+        "derailPoint": "13",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "13"
+        }
     },
     "ROOT23": {
         "title": "[Feature] Allow custom publish subdirectory",
@@ -285,7 +400,12 @@
         "author": "esakal",
         "comments": 26,
         "repository": "lerna/lerna",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT24": {
         "title": "Bump major version before releasing license change.",
@@ -297,7 +417,12 @@
         "author": "phpnode",
         "comments": 9,
         "repository": "lerna/lerna",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT25": {
         "title": "Integrating ARKIT and ARCORE with flutter",
@@ -309,7 +434,12 @@
         "author": "khalithartmann",
         "comments": 60,
         "repository": "flutter/flutter",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT26": {
         "title": "Night mode doesnt work by me.",
@@ -321,7 +451,12 @@
         "author": "rocnogu",
         "comments": 8,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT27": {
         "title": "Server side WCF ",
@@ -333,7 +468,12 @@
         "author": "jan-johansson-mr",
         "comments": 264,
         "repository": "dotnet/wcf",
-        "derailPoint": "246"
+        "derailPoint": "246",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "246"
+        }
     },
     "ROOT28": {
         "title": "Array.isArray refinement loses the array's type",
@@ -345,7 +485,12 @@
         "author": "lll000111",
         "comments": 12,
         "repository": "microsoft/TypeScript",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT29": {
         "title": "Adding WREN to vcpkg",
@@ -357,7 +502,12 @@
         "author": "RichyHBM",
         "comments": 4,
         "repository": "microsoft/vcpkg",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT30": {
         "title": "VT52 cursor left sequence conflicts with VT100 index sequence",
@@ -369,7 +519,12 @@
         "author": "j4james",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT31": {
         "title": "curriculum not on 100%",
@@ -381,7 +536,12 @@
         "author": "rocnogu",
         "comments": 5,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT32": {
         "title": "[Epic] Text Buffer rewrite ",
@@ -393,7 +553,12 @@
         "author": "DHowett",
         "comments": 31,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT33": {
         "title": "Fix typo",
@@ -405,7 +570,12 @@
         "author": "ghost",
         "comments": 10,
         "repository": "google/tarpc",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT34": {
         "title": "lerna bootstrap links whole folder, even if files and main are specified",
@@ -417,7 +587,12 @@
         "author": "UnchartedBull",
         "comments": 12,
         "repository": "lerna/lerna",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT35": {
         "title": "Please don't remove the dark theme, because it will make it harder to read large block of code.",
@@ -429,7 +604,12 @@
         "author": "Danielx64",
         "comments": 6,
         "repository": "microsoft/vscode",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT36": {
         "title": "ITK portfile support legacy user code by default",
@@ -441,7 +621,12 @@
         "author": "N-Dekker",
         "comments": 6,
         "repository": "microsoft/vcpkg",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT37": {
         "title": "Using include asynchronously with with_items",
@@ -453,7 +638,12 @@
         "author": "fasterfish",
         "comments": 13,
         "repository": "ansible/ansible",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT38": {
         "title": "Kernel crashes every 3 seconds from a fresh install from conda from both default and conda-forge",
@@ -465,7 +655,12 @@
         "author": "penilessquant",
         "comments": 8,
         "repository": "ipython/ipython",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT39": {
         "title": "\ud83c\udf85",
@@ -477,7 +672,12 @@
         "author": "nkkollaw",
         "comments": 4,
         "repository": "microsoft/vscode",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT40": {
         "title": "Don't hyphenate custom CSS properties for ReactDOMServer",
@@ -489,7 +689,12 @@
         "author": "bedakb",
         "comments": 4,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT41": {
         "title": "Are you serious?",
@@ -501,7 +706,12 @@
         "author": "Gibson85",
         "comments": 3,
         "repository": "microsoft/vscode-cmake-tools",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT42": {
         "title": "[docs][recipes] Update to Linking Between Recipe with example + tests",
@@ -513,7 +723,12 @@
         "author": "marcysutton",
         "comments": 7,
         "repository": "gatsbyjs/gatsby",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT43": {
         "title": "Conditionally import_playbook aka include_playbook",
@@ -525,7 +740,12 @@
         "author": "reyjrar",
         "comments": 44,
         "repository": "ansible/ansible",
-        "derailPoint": "23"
+        "derailPoint": "23",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "23"
+        }
     },
     "ROOT44": {
         "title": "Hosting Blazor App behind an MVC app",
@@ -537,7 +757,12 @@
         "author": "Julien-Marpault",
         "comments": 6,
         "repository": "dotnet/aspnetcore",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT45": {
         "title": "IPython 5.10 doesn't work on Python 3.8",
@@ -549,7 +774,12 @@
         "author": "bmw",
         "comments": 4,
         "repository": "ipython/ipython",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT46": {
         "title": "Please rename \"Terminal\" section of menu, because it's offensive to me",
@@ -561,7 +791,12 @@
         "author": "gitstashapply",
         "comments": 5,
         "repository": "microsoft/vscode",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT47": {
         "title": "Rename the \"master\" branch to avoid problematic terminology",
@@ -573,7 +808,12 @@
         "author": "jermowery",
         "comments": 7,
         "repository": "angular/angular",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT48": {
         "title": "Infantry cancel their order once they dodge a vehicle",
@@ -585,7 +825,12 @@
         "author": "Yara-smurf",
         "comments": 22,
         "repository": "OpenRA/OpenRA",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT49": {
         "title": "\u4f60\u597d\uff0c\u4f60\u7684\u8bed\u8a00\u7248\u672c\u4e0a\u8fdd\u53cd\u4e86\u4e2d\u56fd\u6cd5\u5f8b",
@@ -597,7 +842,12 @@
         "author": "ceet2016",
         "comments": 8,
         "repository": "Semantic-Org/Semantic-UI",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT50": {
         "title": "Please remove Scottish Gaelic from the Google translate block",
@@ -609,7 +859,12 @@
         "author": "gunchleoc",
         "comments": 9,
         "repository": "scratchfoundation/scratch-blocks",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT51": {
         "title": "v14 --fix rewrites `a 'b' c` to 'a \\'b\\' c' instead of \"a 'b' c\"",
@@ -621,7 +876,12 @@
         "author": "billiegoose",
         "comments": 8,
         "repository": "standard/standard",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT52": {
         "title": "Microsoft.AspNetCore.Mvc is getting depreciated but what would be workaround?",
@@ -633,7 +893,12 @@
         "author": "bhrugen",
         "comments": 6,
         "repository": "dotnet/aspnetcore",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT53": {
         "title": "Disable Origin Policy CORS in Flutter web",
@@ -645,7 +910,12 @@
         "author": "amorenew",
         "comments": 50,
         "repository": "flutter/flutter",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT54": {
         "title": "Have saw many build/run environment issues, collect them here.",
@@ -657,7 +927,12 @@
         "author": "CanoeFZH",
         "comments": 13,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT55": {
         "title": "Buttons pressing leads to editor crash if pressed while other app window is focused (DisplayServer regression)",
@@ -669,7 +944,12 @@
         "author": "Chaosus",
         "comments": 7,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT56": {
         "title": "Hard to see cursor when using in-place rename refactoring",
@@ -681,7 +961,12 @@
         "author": "vsfeedback",
         "comments": 3,
         "repository": "dotnet/roslyn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT57": {
         "title": "Inconsistent java formatting with Eclipse and IntelliJ",
@@ -693,7 +978,12 @@
         "author": "jacek-jablonski",
         "comments": 3,
         "repository": "google/styleguide",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT58": {
         "title": "Error on django",
@@ -705,7 +995,12 @@
         "author": "night-fury-web",
         "comments": 3,
         "repository": "ipython/ipython",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT59": {
         "title": "App unavailable on non-German Play Store",
@@ -717,7 +1012,12 @@
         "author": "AHDGraham",
         "comments": 76,
         "repository": "corona-warn-app/cwa-app-android",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT60": {
         "title": "[v4] form-control: Remove background-image: none; ",
@@ -729,7 +1029,12 @@
         "author": "mariusa",
         "comments": 3,
         "repository": "twbs/bootstrap",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT61": {
         "title": "azure: update InitiateDeviceAuth  with InitiateDeviceAuthWithContext",
@@ -741,7 +1046,12 @@
         "author": "Murphylu1993",
         "comments": 5,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT62": {
         "title": "Update csi proxy to v0.2.1",
@@ -753,7 +1063,12 @@
         "author": "jingxu97",
         "comments": 6,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT63": {
         "title": "Incorrect formatting of C# comments",
@@ -765,7 +1080,12 @@
         "author": "vsfeedback",
         "comments": 52,
         "repository": "dotnet/roslyn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT64": {
         "title": "Problems running the image example (Python 2.7.10, PyEnv, Xubuntu 14.04 64bit)",
@@ -777,7 +1097,12 @@
         "author": "samuell",
         "comments": 6,
         "repository": "tensorflow/tensorflow",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT65": {
         "title": "OpenCL support",
@@ -789,7 +1114,12 @@
         "author": "outlace",
         "comments": 542,
         "repository": "tensorflow/tensorflow",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT66": {
         "title": "Terminal shows an empty window and then crashes",
@@ -801,7 +1131,12 @@
         "author": "Byloth",
         "comments": 56,
         "repository": "microsoft/terminal",
-        "derailPoint": "11"
+        "derailPoint": "11",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "11"
+        }
     },
     "ROOT67": {
         "title": "No more exec from data folder on targetAPI >= Android Q",
@@ -813,7 +1148,12 @@
         "author": "n0n3m4",
         "comments": 308,
         "repository": "termux/termux-app",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT68": {
         "title": "Json support to set Firebase Remote Configs defaults",
@@ -825,7 +1165,12 @@
         "author": "bolds07",
         "comments": 10,
         "repository": "firebase/firebase-android-sdk",
-        "derailPoint": "9"
+        "derailPoint": "9",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "9"
+        }
     },
     "ROOT69": {
         "title": "feat: Allow custom file extensions",
@@ -837,7 +1182,12 @@
         "author": "NebelNidas",
         "comments": 4,
         "repository": "jekyll/jekyll",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT70": {
         "title": "Weird slowness scolling text in the console",
@@ -849,7 +1199,12 @@
         "author": "powercode",
         "comments": 42,
         "repository": "microsoft/terminal",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT71": {
         "title": "Please remove the black theme, because it's offensive to me",
@@ -861,7 +1216,12 @@
         "author": "Humberd",
         "comments": 14,
         "repository": "microsoft/vscode",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT72": {
         "title": "Azure Cloud Shell is readded to the profiles.json file after I remove it and restart terminal. ",
@@ -873,7 +1233,12 @@
         "author": "Alacritous",
         "comments": 11,
         "repository": "microsoft/terminal",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT73": {
         "title": "Support Web Components v1",
@@ -885,7 +1250,12 @@
         "author": "donny-dont",
         "comments": 18,
         "repository": "dart-lang/sdk",
-        "derailPoint": "13"
+        "derailPoint": "13",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "13"
+        }
     },
     "ROOT74": {
         "title": "The Future of IdentityServer",
@@ -897,7 +1267,12 @@
         "author": "SIkebe",
         "comments": 45,
         "repository": "dotnet/aspnetcore",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT75": {
         "title": "Suppress firing events at load time if an error has already occurred",
@@ -909,7 +1284,12 @@
         "author": "bs2609",
         "comments": 7,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT76": {
         "title": "Invalid formatting of `#If` directive in VB",
@@ -921,7 +1301,12 @@
         "author": "AlekseyTs",
         "comments": 3,
         "repository": "dotnet/roslyn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT77": {
         "title": "no-git-push not working after 3.18.0",
@@ -933,7 +1318,12 @@
         "author": "uncleramsay",
         "comments": 16,
         "repository": "lerna/lerna",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT78": {
         "title": "Riot Desktop system tray icon invisible",
@@ -945,7 +1335,12 @@
         "author": "MazeChaZer",
         "comments": 45,
         "repository": "vector-im/element-web",
-        "derailPoint": "14"
+        "derailPoint": "14",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "14"
+        }
     },
     "ROOT79": {
         "title": "[Spec]  Name in use by a REAL open-source project",
@@ -957,7 +1352,12 @@
         "author": "ghost",
         "comments": 7,
         "repository": "dotnet/maui",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT80": {
         "title": "depends_on cannot be used in a module",
@@ -969,7 +1369,12 @@
         "author": "chrisrlong",
         "comments": 136,
         "repository": "hashicorp/terraform",
-        "derailPoint": "16"
+        "derailPoint": "16",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "16"
+        }
     },
     "ROOT81": {
         "title": "uses-long-cache is too strict",
@@ -981,7 +1386,12 @@
         "author": "sk-",
         "comments": 5,
         "repository": "GoogleChrome/lighthouse",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT82": {
         "title": "implement and enable gce instancev2",
@@ -993,7 +1403,12 @@
         "author": "gongguan",
         "comments": 8,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT83": {
         "title": "[Bug] Name clash with Maui Linux and MauiKit",
@@ -1005,7 +1420,12 @@
         "author": "probonopd",
         "comments": 50,
         "repository": "dotnet/maui",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT84": {
         "title": "Unable to delete files on Fedora 28 (gvfs-trash is deprecated)",
@@ -1017,7 +1437,12 @@
         "author": "Devligue",
         "comments": 59,
         "repository": "atom/atom",
-        "derailPoint": "19"
+        "derailPoint": "19",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "19"
+        }
     },
     "ROOT85": {
         "title": "Norton very unhappy with vcpkgmetricsuploader",
@@ -1029,7 +1454,12 @@
         "author": "ghost",
         "comments": 6,
         "repository": "microsoft/vcpkg",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT86": {
         "title": "Make wording in the directives more inclusive",
@@ -1041,7 +1471,12 @@
         "author": "jKittyj",
         "comments": 6,
         "repository": "angular/angular",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT87": {
         "title": "Can't edit animation when it's created by copying another animation",
@@ -1053,7 +1488,12 @@
         "author": "mysticfall",
         "comments": 8,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT88": {
         "title": "Display clipboard contents in the multiple line warning dialog box when pasting into Terminal",
@@ -1065,7 +1505,12 @@
         "author": "tfennel",
         "comments": 6,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT89": {
         "title": "Godot editor GUI issue",
@@ -1077,7 +1522,12 @@
         "author": "zaksnet",
         "comments": 4,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT90": {
         "title": "Provide python version mismatch solutions",
@@ -1089,7 +1539,12 @@
         "author": "dincamihai",
         "comments": 21,
         "repository": "saltstack/salt",
-        "derailPoint": "19"
+        "derailPoint": "19",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "19"
+        }
     },
     "ROOT91": {
         "title": "Class requires Angular annotation even when abstract.",
@@ -1101,7 +1556,12 @@
         "author": "zehavibarak",
         "comments": 43,
         "repository": "angular/angular",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT92": {
         "title": "Expand diffs in either direction",
@@ -1113,7 +1573,12 @@
         "author": "aengelberg",
         "comments": 6,
         "repository": "refined-github/refined-github",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT93": {
         "title": "HTTP manipulating complete request / get raw response",
@@ -1125,7 +1590,12 @@
         "author": "ghost",
         "comments": 7,
         "repository": "flutter/flutter",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT94": {
         "title": "Bug(Animations): animation transition :enter delay should delay the appearance of an element",
@@ -1137,7 +1607,12 @@
         "author": "Ploppy3",
         "comments": 4,
         "repository": "angular/angular",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT95": {
         "title": "[v10.x] Reland npm 6.14.11",
@@ -1149,7 +1624,12 @@
         "author": "richardlau",
         "comments": 4,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT96": {
         "title": "Show a warning with Learn More link if SSH is in use without a working ssh-agent",
@@ -1161,7 +1641,12 @@
         "author": "bwateratmsft",
         "comments": 8,
         "repository": "microsoft/vscode-docker",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT97": {
         "title": "Gatling 3.0.0 does not honor dns ttl ",
@@ -1173,7 +1658,12 @@
         "author": "Elufimov",
         "comments": 6,
         "repository": "gatling/gatling",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT98": {
         "title": "IPython doesn't follow the XDG base directory specification",
@@ -1185,7 +1675,12 @@
         "author": "Avamander",
         "comments": 4,
         "repository": "ipython/ipython",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT99": {
         "title": "Santa Claus hat as an option in VS Code settings",
@@ -1197,7 +1692,12 @@
         "author": "PrzemyslawPolrolniczak",
         "comments": 8,
         "repository": "microsoft/vscode",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT100": {
         "title": "CodeLens reference count is not shown for const fields",
@@ -1209,7 +1709,12 @@
         "author": "eriawan",
         "comments": 31,
         "repository": "dotnet/roslyn",
-        "derailPoint": "30"
+        "derailPoint": "30",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "30"
+        }
     },
     "ROOT101": {
         "title": "Typescript should follow semantic versioning  ",
@@ -1221,7 +1726,12 @@
         "author": "jbgraug",
         "comments": 37,
         "repository": "microsoft/TypeScript",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT102": {
         "title": "wsl2 cannot create temp file for here-document: Read-only file system",
@@ -1233,7 +1743,12 @@
         "author": "eromoe",
         "comments": 4,
         "repository": "microsoft/WSL",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT103": {
         "title": "Node.js would not compile with --debug --v8-non-optimized-debug",
@@ -1245,7 +1760,12 @@
         "author": "john-yan",
         "comments": 6,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT104": {
         "title": "Last jedi release (0.18.0) is incompatible with ipython (7.19 and 7.18 tested); reason - column arg was deprecated, and now removed",
@@ -1257,7 +1777,12 @@
         "author": "DaniilAnichin",
         "comments": 63,
         "repository": "ipython/ipython",
-        "derailPoint": "30"
+        "derailPoint": "30",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "30"
+        }
     },
     "ROOT105": {
         "title": "Focus on Terminal View on mouse hover",
@@ -1269,7 +1794,12 @@
         "author": "tifDev",
         "comments": 8,
         "repository": "microsoft/vscode",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT106": {
         "title": "Need MySQL 8.0 support",
@@ -1281,7 +1811,12 @@
         "author": "mpyw",
         "comments": 68,
         "repository": "sequelpro/sequelpro",
-        "derailPoint": "15"
+        "derailPoint": "15",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "15"
+        }
     },
     "ROOT107": {
         "title": "(Title renamed to remove explicit language)",
@@ -1293,7 +1828,12 @@
         "author": "emergy",
         "comments": 11,
         "repository": "ansible/ansible",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT108": {
         "title": "Use C++14 as default standard version for cpp projects",
@@ -1305,7 +1845,12 @@
         "author": "dsazonoff",
         "comments": 3,
         "repository": "google/styleguide",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT109": {
         "title": "debug breakpoints don't work when launching from url",
@@ -1317,7 +1862,12 @@
         "author": "DartBot",
         "comments": 5,
         "repository": "dart-lang/sdk",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT110": {
         "title": "Please support web standard crypto.subtle",
@@ -1329,7 +1879,12 @@
         "author": "MichaelJCole",
         "comments": 6,
         "repository": "nodejs/node",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT111": {
         "title": "Console Behavior in Javascript lessons.",
@@ -1341,7 +1896,12 @@
         "author": "HumbleAssassin",
         "comments": 5,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT112": {
         "title": "Lightmap Baking hangs at \"Plotting Meshes\" then fills the RAM up until Godot crashes.",
@@ -1353,7 +1913,12 @@
         "author": "CheesecakeCG",
         "comments": 3,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT113": {
         "title": "Add ability to turn off AE2 Channels",
@@ -1365,7 +1930,12 @@
         "author": "vishtheshnu",
         "comments": 6,
         "repository": "Divine-Journey-2/Divine-Journey-2",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT114": {
         "title": "Santa hat removal",
@@ -1377,7 +1947,12 @@
         "author": "Asgoret",
         "comments": 3,
         "repository": "microsoft/vscode",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT115": {
         "title": "use to_list() instead of [] notation",
@@ -1389,7 +1964,12 @@
         "author": "r1k0",
         "comments": 6,
         "repository": "ansible/ansible",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT116": {
         "title": "Keymap configuration cannot be recognized",
@@ -1401,7 +1981,12 @@
         "author": "skywind3000",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT117": {
         "title": "The positioning of an app using winappdriver is incorrect.",
@@ -1413,7 +1998,12 @@
         "author": "rogerst8",
         "comments": 4,
         "repository": "microsoft/WinAppDriver",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT118": {
         "title": "RFS (Responsive font size) implementation",
@@ -1425,7 +2015,12 @@
         "author": "MartijnCuppens",
         "comments": 37,
         "repository": "twbs/bootstrap",
-        "derailPoint": "53"
+        "derailPoint": "53",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "53"
+        }
     },
     "ROOT119": {
         "title": "Replace use of whitelist with allowlist and blacklist with denylist",
@@ -1437,7 +2032,12 @@
         "author": "dhh",
         "comments": 11,
         "repository": "rails/rails",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT120": {
         "title": "mount.mounted does not handle blanks properly",
@@ -1449,7 +2049,12 @@
         "author": "votdev",
         "comments": 14,
         "repository": "saltstack/salt",
-        "derailPoint": "12"
+        "derailPoint": "12",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "12"
+        }
     },
     "ROOT121": {
         "title": "Memory leak on AuthUI.getInstance()#signOut(Activity)",
@@ -1461,7 +2066,12 @@
         "author": "pedrodanielcsantos",
         "comments": 4,
         "repository": "firebase/FirebaseUI-Android",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT122": {
         "title": "Remove redundant properties in card components & fix #29396",
@@ -1473,7 +2083,12 @@
         "author": "MartijnCuppens",
         "comments": 4,
         "repository": "twbs/bootstrap",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT123": {
         "title": "Add transform SVG node parse",
@@ -1485,7 +2100,12 @@
         "author": "yomboprime",
         "comments": 13,
         "repository": "mrdoob/three.js",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT124": {
         "title": " `Use legacy console` option prevents Terminal from launching ConPTYs correctly",
@@ -1497,7 +2117,12 @@
         "author": "miniksa",
         "comments": 3,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT125": {
         "title": "Expose minizip API to allow creating zips using scripts",
@@ -1509,7 +2134,12 @@
         "author": "marcelofg55",
         "comments": 4,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT126": {
         "title": "[MRG] COSMIT: Minor opt in pairwise_distances_argmin_min",
@@ -1521,7 +2151,12 @@
         "author": "MechCoder",
         "comments": 4,
         "repository": "scikit-learn/scikit-learn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT127": {
         "title": "Prevent repeated checking and typecasting in check_pairwise",
@@ -1533,7 +2168,12 @@
         "author": "MechCoder",
         "comments": 7,
         "repository": "scikit-learn/scikit-learn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT128": {
         "title": "[crash] Right-click-on-tab menu is unstable",
@@ -1545,7 +2185,12 @@
         "author": "pstaag",
         "comments": 3,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT129": {
         "title": "WSSS-Singapore Changi Airport-CHANGI-SINGAPORE",
@@ -1557,7 +2202,12 @@
         "author": "carmichaelalonso",
         "comments": 23,
         "repository": "InfiniteFlightAirportEditing/Airports",
-        "derailPoint": "19"
+        "derailPoint": "19",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "19"
+        }
     },
     "ROOT130": {
         "title": "SEA3D vs GLTF",
@@ -1569,7 +2219,12 @@
         "author": "RemusMar",
         "comments": 46,
         "repository": "mrdoob/three.js",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT131": {
         "title": "npm install funding",
@@ -1581,7 +2236,12 @@
         "author": "feross",
         "comments": 174,
         "repository": "standard/standard",
-        "derailPoint": "17"
+        "derailPoint": "17",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "17"
+        }
     },
     "ROOT132": {
         "title": "Global variable scope rules lead to unintuitive behavior at the REPL/notebook",
@@ -1593,7 +2253,12 @@
         "author": "IainNZ",
         "comments": 98,
         "repository": "JuliaLang/julia",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT133": {
         "title": "add http2 health check for SetTransportDefaults",
@@ -1605,7 +2270,12 @@
         "author": "duyanghao",
         "comments": 27,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": "14"
+        "derailPoint": "14",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "14"
+        }
     },
     "ROOT134": {
         "title": "proposal: Go 2: error handling with functions and an error return?",
@@ -1617,7 +2287,12 @@
         "author": "gregwebs",
         "comments": 55,
         "repository": "golang/go",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT135": {
         "title": "Change test method from string.test(regex) to regex.test(string)",
@@ -1629,7 +2304,12 @@
         "author": "maxjunerd",
         "comments": 3,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT136": {
         "title": "Youtube-dl disabled due to a DMCA takedown. We are next.",
@@ -1641,7 +2321,12 @@
         "author": "imShara",
         "comments": 24,
         "repository": "TeamNewPipe/NewPipe",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT137": {
         "title": "BUG",
@@ -1653,7 +2338,12 @@
         "author": "mastercraft01",
         "comments": 9,
         "repository": "TeamVanced/VancedManager",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT138": {
         "title": "Bug: functional components are not re-rendered if the provided props look the same",
@@ -1665,7 +2355,12 @@
         "author": "danielo515",
         "comments": 8,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT139": {
         "title": "Terminal v1.5.10271.0 crashes on startup due to settings.json load bug",
@@ -1677,7 +2372,12 @@
         "author": "BasKiers",
         "comments": 7,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT140": {
         "title": "Added Elasticsearch cluster settings get and put methods plus the flush_synced method",
@@ -1689,7 +2389,12 @@
         "author": "Oloremo",
         "comments": 6,
         "repository": "saltstack/salt",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT141": {
         "title": "Stop the censorship",
@@ -1701,7 +2406,12 @@
         "author": "Mikotochan",
         "comments": 19,
         "repository": "microsoft/vscode",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT142": {
         "title": "spurious CONDITIONAL_BARE_VARS warnings",
@@ -1713,7 +2423,12 @@
         "author": "jamescassell",
         "comments": 13,
         "repository": "ansible/ansible",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT143": {
         "title": "add: 27-quadratic-primes in js",
@@ -1725,7 +2440,12 @@
         "author": "kylelobo",
         "comments": 4,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT144": {
         "title": "feat(client): pagination on timeline",
@@ -1737,7 +2457,12 @@
         "author": "MathewtheCoder",
         "comments": 18,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT145": {
         "title": "Marketplace: searching by an extension's name is practically broken",
@@ -1749,7 +2474,12 @@
         "author": "fabiospampinato",
         "comments": 46,
         "repository": "microsoft/vscode",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT146": {
         "title": "Roll Fuchsia Mac SDK from 7LGbVIHUD... to mpToCR2bB...",
@@ -1761,7 +2491,12 @@
         "author": "skia-flutter-autoroll",
         "comments": 5,
         "repository": "flutter/engine",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT147": {
         "title": "Is there a way to have a full REPL or console for vs code Python?",
@@ -1773,7 +2508,12 @@
         "author": "cui-colin",
         "comments": 28,
         "repository": "microsoft/vscode-jupyter",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT148": {
         "title": "Deno",
@@ -1785,7 +2525,12 @@
         "author": "quasis",
         "comments": 7,
         "repository": "nodejs/node",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT149": {
         "title": "Windows Terminal crashes right at launch - File system error (-2015294513)",
@@ -1797,7 +2542,12 @@
         "author": "retifrav",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT150": {
         "title": "Error: 'TextButton' is exported from both 'package:flutter/src/material/flat_button.dart' and 'package:flutter/src/material/text_button.dart'. export 'src/material/text_button.dart';",
@@ -1809,7 +2559,12 @@
         "author": "KeshavVenkat",
         "comments": 8,
         "repository": "flutter/flutter",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT151": {
         "title": "BUG: The `%conda` magic doesn't work",
@@ -1821,7 +2576,12 @@
         "author": "farisachugthai",
         "comments": 3,
         "repository": "ipython/ipython",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT152": {
         "title": "proposal: path/filepath: add Resolve, replacing EvalSymlinks",
@@ -1833,7 +2593,12 @@
         "author": "bk2204",
         "comments": 78,
         "repository": "golang/go",
-        "derailPoint": "16"
+        "derailPoint": "16",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "16"
+        }
     },
     "ROOT153": {
         "title": "[BUG] dialog background is cut at the right side in Firefox and some other browsers",
@@ -1845,7 +2610,12 @@
         "author": "Goury",
         "comments": 11,
         "repository": "Kruptein/PlanarAlly",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT154": {
         "title": "Panel split background ignores `requestedTheme`, follows system app mode",
@@ -1857,7 +2627,12 @@
         "author": "dreadnaut",
         "comments": 10,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT155": {
         "title": "Incorrect wsl disk space",
@@ -1869,7 +2644,12 @@
         "author": "Mystic8b",
         "comments": 14,
         "repository": "microsoft/WSL",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT156": {
         "title": "util: add util/errors",
@@ -1881,7 +2661,12 @@
         "author": "jasnell",
         "comments": 27,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT157": {
         "title": "Fake client example: document how to handle a race with informer",
@@ -1893,7 +2678,12 @@
         "author": "roycaihw",
         "comments": 7,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT158": {
         "title": "/etc/cups/subscriptions.conf should live in /var",
@@ -1905,7 +2695,12 @@
         "author": "tvw",
         "comments": 5,
         "repository": "apple/cups",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT159": {
         "title": "What counts as \"activity\" for Http2Session#setTimeout?",
@@ -1917,7 +2712,12 @@
         "author": "murgatroid99",
         "comments": 4,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT160": {
         "title": "Security Fix",
@@ -1929,7 +2729,12 @@
         "author": "kieferrm",
         "comments": 10,
         "repository": "microsoft/vscode",
-        "derailPoint": "9"
+        "derailPoint": "9",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "9"
+        }
     },
     "ROOT161": {
         "title": "events: improve listeners() performance",
@@ -1941,7 +2746,12 @@
         "author": "mscdex",
         "comments": 3,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT162": {
         "title": "Some parameter names of function lead to shader compilation errors",
@@ -1953,7 +2763,12 @@
         "author": "mnn",
         "comments": 12,
         "repository": "godotengine/godot",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT163": {
         "title": "Disable for custom time in seconds and not in minutes",
@@ -1965,7 +2780,12 @@
         "author": "ilopmar",
         "comments": 26,
         "repository": "pi-hole/AdminLTE",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT164": {
         "title": "Add annotation-based tools for dist-based implementation of methods",
@@ -1977,7 +2797,12 @@
         "author": "FoxSamu",
         "comments": 5,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT165": {
         "title": "Zip nesting regression in Gradle 5.1 and later",
@@ -1989,7 +2814,12 @@
         "author": "Lanchon",
         "comments": 10,
         "repository": "gradle/gradle",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT166": {
         "title": "navbar dropdown not working ",
@@ -2001,7 +2831,12 @@
         "author": "ahkui",
         "comments": 4,
         "repository": "twbs/bootstrap",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT167": {
         "title": "v2.9.6 templating performance regression due to caching change in #67429",
@@ -2013,7 +2848,12 @@
         "author": "kenyon",
         "comments": 18,
         "repository": "ansible/ansible",
-        "derailPoint": "11"
+        "derailPoint": "11",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "11"
+        }
     },
     "ROOT168": {
         "title": "The find/search selection highlight for the built in documentation is very hard to see.",
@@ -2025,7 +2865,12 @@
         "author": "ghost",
         "comments": 26,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT169": {
         "title": "We cannot reach the server to update your progress.",
@@ -2037,7 +2882,12 @@
         "author": "macengr",
         "comments": 24,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT170": {
         "title": "Options ... Naming Style dialog unusable with Dark theme",
@@ -2049,7 +2899,12 @@
         "author": "vsfeedback",
         "comments": 4,
         "repository": "dotnet/roslyn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT171": {
         "title": "Feature Request",
@@ -2061,7 +2916,12 @@
         "author": "pastra98",
         "comments": 6,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT172": {
         "title": "'Go to definition' on a tuple element name should not navigate to metadata for ValueTuple.ItemN",
@@ -2073,7 +2933,12 @@
         "author": "jnm2",
         "comments": 5,
         "repository": "dotnet/roslyn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT173": {
         "title": "Allow decrypting of files with vaulted variables",
@@ -2085,7 +2950,12 @@
         "author": "jhkrischel",
         "comments": 37,
         "repository": "ansible/ansible",
-        "derailPoint": "25"
+        "derailPoint": "25",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "25"
+        }
     },
     "ROOT174": {
         "title": "Font size different in different terminals even though the same in points",
@@ -2097,7 +2967,12 @@
         "author": "mobluse",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT175": {
         "title": "Camera doesn't work",
@@ -2109,7 +2984,12 @@
         "author": "Djaler",
         "comments": 20,
         "repository": "elementary/camera",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT176": {
         "title": "Euler sequences, Quats, and DCMs",
@@ -2121,7 +3001,12 @@
         "author": "ericstoneking",
         "comments": 10,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT177": {
         "title": "v3.18.0: `--hoist` no longer accepts multiple string values (yargs v14 change)",
@@ -2133,7 +3018,12 @@
         "author": "uqcgreen",
         "comments": 5,
         "repository": "lerna/lerna",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT178": {
         "title": "Custom Model Data Support",
@@ -2145,7 +3035,12 @@
         "author": "NessunoMC",
         "comments": 16,
         "repository": "SBDPlugins/Issues-VehiclesPlus",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT179": {
         "title": "Push: NoneType has no attribute Write",
@@ -2157,7 +3052,12 @@
         "author": "penn5",
         "comments": 10,
         "repository": "google/python-adb",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT180": {
         "title": "Forward port patches from 10.x security release",
@@ -2169,7 +3069,12 @@
         "author": "MylesBorins",
         "comments": 4,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT181": {
         "title": "Replace the refinery with the \"ERCC\" refinery in the standard game",
@@ -2181,7 +3086,12 @@
         "author": "Yara-smurf",
         "comments": 16,
         "repository": "OpenRA/OpenRA",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT182": {
         "title": "Proposal: Consider using  bgfx as a rendering backend?",
@@ -2193,7 +3103,12 @@
         "author": "csotiriou",
         "comments": 21,
         "repository": "godotengine/godot",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT183": {
         "title": "fix(learn): missing semi-colon on use arrow functions to write anonymous functions",
@@ -2205,7 +3120,12 @@
         "author": "shrobbins",
         "comments": 4,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT184": {
         "title": "DDC-2891: Impossible to pass a limit to a subquery",
@@ -2217,7 +3137,12 @@
         "author": "doctrinebot",
         "comments": 10,
         "repository": "doctrine/orm",
-        "derailPoint": "9"
+        "derailPoint": "9",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "9"
+        }
     },
     "ROOT185": {
         "title": "http2 client: enable http2 connection health check",
@@ -2229,7 +3154,12 @@
         "author": "povsister",
         "comments": 29,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": "14"
+        "derailPoint": "14",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "14"
+        }
     },
     "ROOT186": {
         "title": "kubeadm: deprecate the `ClusterStatus` dependency\r",
@@ -2241,7 +3171,12 @@
         "author": "ereslibre",
         "comments": 16,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT187": {
         "title": "Atom still spies on the user even prior to consent request",
@@ -2253,7 +3188,12 @@
         "author": "sneak",
         "comments": 18,
         "repository": "atom/atom",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT188": {
         "title": "http: explain the unused argument in IncomingMessage._read",
@@ -2265,7 +3205,12 @@
         "author": "Ayase-252",
         "comments": 17,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT189": {
         "title": "Permissions needed to run Terminal",
@@ -2277,7 +3222,12 @@
         "author": "PayasR",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT190": {
         "title": "new release? or deprecated?",
@@ -2289,7 +3239,12 @@
         "author": "rlam3",
         "comments": 7,
         "repository": "perone/stallion",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT191": {
         "title": "\ud83d\udd25[WIP][NOT READY FOR REVIEW]\ud83d\udc0d[EXPERIMENT] \ud83d\udc09 Use Ubuntu LTS as master image by default \ud83d\udd25",
@@ -2301,7 +3256,12 @@
         "author": "dims",
         "comments": 23,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT192": {
         "title": "TypeScript support",
@@ -2313,7 +3273,12 @@
         "author": "slavarazum",
         "comments": 14,
         "repository": "wearebraid/vue-formulate",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT193": {
         "title": "Fix crash in terminal when tab closed while data is being output",
@@ -2325,7 +3290,12 @@
         "author": "j4james",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT194": {
         "title": "CheckBox & RadioButton labels become off-center when text scaling >= ~150%.",
@@ -2337,7 +3307,12 @@
         "author": "kmgallahan",
         "comments": 27,
         "repository": "microsoft/microsoft-ui-xaml",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT195": {
         "title": "[eslint-plugin-react-hooks] \"Rules of hooks\" considers any function beginning with \"use\" to be a React Hook",
@@ -2349,7 +3324,12 @@
         "author": "cjcenizal",
         "comments": 11,
         "repository": "facebook/react",
-        "derailPoint": "9"
+        "derailPoint": "9",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "9"
+        }
     },
     "ROOT196": {
         "title": "Rename \"taint\" to something less vulgar",
@@ -2361,7 +3341,12 @@
         "author": "enragedginger",
         "comments": 8,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT197": {
         "title": "fix command variable exited with status 1",
@@ -2373,7 +3358,12 @@
         "author": "LexCC",
         "comments": 35,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT198": {
         "title": "use allowlist instead of whitelist",
@@ -2385,7 +3375,12 @@
         "author": "shengxinjing",
         "comments": 10,
         "repository": "facebook/react",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT199": {
         "title": "fmt: add examples",
@@ -2397,7 +3392,12 @@
         "author": "kevinburke",
         "comments": 35,
         "repository": "golang/go",
-        "derailPoint": "27"
+        "derailPoint": "27",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "27"
+        }
     },
     "ROOT200": {
         "title": "Extreme jank on iOS/Android the first time any kind of animation or transition runs (release build) - skia shader compilation",
@@ -2409,7 +3409,12 @@
         "author": "acoutts",
         "comments": 44,
         "repository": "flutter/flutter",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT201": {
         "title": "Style - future chaining",
@@ -2421,7 +3426,12 @@
         "author": "DartBot",
         "comments": 4,
         "repository": "dart-lang/sdk",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT202": {
         "title": "Indicator of module progress",
@@ -2433,7 +3443,12 @@
         "author": "jknapp25",
         "comments": 18,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT203": {
         "title": "Scrollbar is inset by padding and probably shouldn't be",
@@ -2445,7 +3460,12 @@
         "author": "mcpiroman",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT204": {
         "title": "Missing Microsoft.ServiceFabric.Data.Extensions nuget update",
@@ -2457,7 +3477,12 @@
         "author": "negberts",
         "comments": 5,
         "repository": "microsoft/service-fabric",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT205": {
         "title": "Support Pluginfile in \"import_from_git\"",
@@ -2469,7 +3494,12 @@
         "author": "Skoti",
         "comments": 14,
         "repository": "fastlane/fastlane",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT206": {
         "title": "Microsoft Safety Scanner shows different results than Test-ProxyLogon.ps1 ",
@@ -2481,7 +3511,12 @@
         "author": "zerocarbthirty",
         "comments": 3,
         "repository": "microsoft/CSS-Exchange",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT207": {
         "title": "Fix regression 8.1.1492",
@@ -2493,7 +3528,12 @@
         "author": "mattn",
         "comments": 4,
         "repository": "vim/vim",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT208": {
         "title": "storage OOM not proper handled by gradle ",
@@ -2505,7 +3545,12 @@
         "author": "c3ph3us",
         "comments": 3,
         "repository": "gradle/gradle",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT209": {
         "title": "loading my own datasets",
@@ -2517,7 +3562,12 @@
         "author": "MartinLion",
         "comments": 36,
         "repository": "scikit-learn/scikit-learn",
-        "derailPoint": "24"
+        "derailPoint": "24",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "24"
+        }
     },
     "ROOT210": {
         "title": "ESM only breaks everything",
@@ -2529,7 +3579,12 @@
         "author": "yinzara",
         "comments": 85,
         "repository": "node-fetch/node-fetch",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT211": {
         "title": "Test case \"[GDNative String] humanize_size\" fails on win32 build",
@@ -2541,7 +3596,12 @@
         "author": "zerc",
         "comments": 3,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT212": {
         "title": "Top-level statements and functions",
@@ -2553,7 +3613,12 @@
         "author": "MadsTorgersen",
         "comments": 91,
         "repository": "dotnet/csharplang",
-        "derailPoint": "23"
+        "derailPoint": "23",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "23"
+        }
     },
     "ROOT213": {
         "title": "docs: Add a theme step to Step by Step Tutorial",
@@ -2565,7 +3630,12 @@
         "author": "realtebo",
         "comments": 9,
         "repository": "jekyll/jekyll",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT214": {
         "title": "[v10.x] deps: V8: backport cd21f71f9cb5",
@@ -2577,7 +3647,12 @@
         "author": "targos",
         "comments": 7,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT215": {
         "title": "pkg.install on Arch upgrades full OS as a default option.",
@@ -2589,7 +3664,12 @@
         "author": "whytewolf",
         "comments": 5,
         "repository": "saltstack/salt",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT216": {
         "title": "Impossible to change shop name without multi store",
@@ -2601,7 +3681,12 @@
         "author": "jeckyl",
         "comments": 12,
         "repository": "PrestaShop/PrestaShop",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT217": {
         "title": "As a user, I find the tab experience to be horrible and frustrating",
@@ -2613,7 +3698,12 @@
         "author": "pwd-github",
         "comments": 33,
         "repository": "mozilla-mobile/fenix",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT218": {
         "title": "Tab name appends the currently executing batch file, and when terminated, it remains as part of the name",
@@ -2625,7 +3715,12 @@
         "author": "rbeesley",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT219": {
         "title": "UTF-8 no BOM",
@@ -2637,7 +3732,12 @@
         "author": "veganaize",
         "comments": 12,
         "repository": "google/styleguide",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT220": {
         "title": "Any character requiring Alt Gt not being inserted correctly on German keyboard layout",
@@ -2649,7 +3749,12 @@
         "author": "mwidmann",
         "comments": 4,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT221": {
         "title": "Bodyless Constructors and Methods",
@@ -2661,7 +3766,12 @@
         "author": "mikernet",
         "comments": 7,
         "repository": "dotnet/csharplang",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT222": {
         "title": "Use movups instead of movdqu in block op codegen",
@@ -2673,7 +3783,12 @@
         "author": "mikedn",
         "comments": 19,
         "repository": "dotnet/runtime",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT223": {
         "title": "[Bug] The \"beta\" tag is missing in the homescreen icon in the latest beta version 77.0.0-beta.1",
@@ -2685,7 +3800,12 @@
         "author": "ghost",
         "comments": 6,
         "repository": "mozilla-mobile/fenix",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT224": {
         "title": "Estimator verification API",
@@ -2697,7 +3817,12 @@
         "author": "mblondel",
         "comments": 17,
         "repository": "scikit-learn/scikit-learn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT225": {
         "title": "feature: dependency lock workflows",
@@ -2709,7 +3834,12 @@
         "author": "xenoterracide",
         "comments": 4,
         "repository": "gradle/gradle",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT226": {
         "title": "Discussion: WinUI 3.0 and XAML Performance",
@@ -2721,7 +3851,12 @@
         "author": "mdtauk",
         "comments": 31,
         "repository": "microsoft/microsoft-ui-xaml",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT227": {
         "title": "Dart VM on FreeBSD",
@@ -2733,7 +3868,12 @@
         "author": "DartBot",
         "comments": 73,
         "repository": "dart-lang/sdk",
-        "derailPoint": "26"
+        "derailPoint": "26",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "26"
+        }
     },
     "ROOT228": {
         "title": "Adds experimental event component responder surfaces",
@@ -2745,7 +3885,12 @@
         "author": "trueadm",
         "comments": 5,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT229": {
         "title": "ETA for UWP support?",
@@ -2757,7 +3902,12 @@
         "author": "Noemata",
         "comments": 16,
         "repository": "microsoft/vs-streamjsonrpc",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT230": {
         "title": "Salt 2018.3.0 service.enable mangles /etc/rc.conf, rendering system unbootable",
@@ -2769,7 +3919,12 @@
         "author": "JamesSnow",
         "comments": 6,
         "repository": "saltstack/salt",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT231": {
         "title": "make flags of TokenRequest required",
@@ -2781,7 +3936,12 @@
         "author": "zshihang",
         "comments": 24,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT232": {
         "title": "Cherry pick of #89858: kube-apiserver should exit with error if not able to connect to etcd",
@@ -2793,7 +3953,12 @@
         "author": "nilo19",
         "comments": 12,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT233": {
         "title": "Rename default branch from \"master\" to \"main\"",
@@ -2805,7 +3970,12 @@
         "author": "trivikr",
         "comments": 124,
         "repository": "nodejs/node",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT234": {
         "title": "NameError: name 'sys' is not defined",
@@ -2817,7 +3987,12 @@
         "author": "munrad",
         "comments": 9,
         "repository": "ipython/ipython",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT235": {
         "title": "consider separating URI fragment before passing to TextDocumentContentProvider.provideTextDocumentContent",
@@ -2829,7 +4004,12 @@
         "author": "akosyakov",
         "comments": 7,
         "repository": "microsoft/vscode",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT236": {
         "title": "Jekyll 4.0 Ideas",
@@ -2841,7 +4021,12 @@
         "author": "ghost",
         "comments": 113,
         "repository": "jekyll/jekyll",
-        "derailPoint": "30"
+        "derailPoint": "30",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "30"
+        }
     },
     "ROOT237": {
         "title": "Test summary logged using println",
@@ -2853,7 +4038,12 @@
         "author": "adamdougal",
         "comments": 13,
         "repository": "gatling/gatling",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT238": {
         "title": "cmd/test2json: bogus `Elapsed` field computed when test times out",
@@ -2865,7 +4055,12 @@
         "author": "andreimatei",
         "comments": 3,
         "repository": "golang/go",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT239": {
         "title": "deps: add Yarn 1.22.5",
@@ -2877,7 +4072,12 @@
         "author": "arcanis",
         "comments": 66,
         "repository": "nodejs/node",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT240": {
         "title": "Add the ability to author cross platform tasks in powershell core",
@@ -2889,7 +4089,12 @@
         "author": "jsalado",
         "comments": 26,
         "repository": "microsoft/azure-pipelines-task-lib",
-        "derailPoint": "24"
+        "derailPoint": "24",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "24"
+        }
     },
     "ROOT241": {
         "title": "Duplicate displays cannot be addressed",
@@ -2901,7 +4106,12 @@
         "author": "ameesme",
         "comments": 33,
         "repository": "kfix/ddcctl",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT242": {
         "title": "After inserting a comment when without selection, auto move the cursor to the middle of /**/",
@@ -2913,7 +4123,12 @@
         "author": "dnknn",
         "comments": 7,
         "repository": "openstyles/stylus",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT243": {
         "title": "SplitButton & ToggleSplitButton's chevron gets clipped when text scaling >= ~200%.",
@@ -2925,7 +4140,12 @@
         "author": "kmgallahan",
         "comments": 7,
         "repository": "microsoft/microsoft-ui-xaml",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT244": {
         "title": "Telemetry",
@@ -2937,7 +4157,12 @@
         "author": "InfoLibre",
         "comments": 17,
         "repository": "microsoft/calculator",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT245": {
         "title": "Crash on Android 6.0 Xiaomi devices after release on PlayStore",
@@ -2949,7 +4174,12 @@
         "author": "thesmalleyes",
         "comments": 57,
         "repository": "flutter/flutter",
-        "derailPoint": "33"
+        "derailPoint": "33",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "33"
+        }
     },
     "ROOT246": {
         "title": "Campbell color scheme should change the foreground color from #F2F2F2 to #CCCCCC",
@@ -2961,7 +4191,12 @@
         "author": "rbeesley",
         "comments": 5,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT247": {
         "title": "This is the worst framework i have ever seen.",
@@ -2973,7 +4208,12 @@
         "author": "gubenkovalik",
         "comments": 11,
         "repository": "angular/angular",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT248": {
         "title": "Add support for navigator.mediaDevices.addEventListener devicechange event",
@@ -2985,7 +4225,12 @@
         "author": "bizready",
         "comments": 18,
         "repository": "cordova-rtc/cordova-plugin-iosrtc",
-        "derailPoint": "12"
+        "derailPoint": "12",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "12"
+        }
     },
     "ROOT249": {
         "title": "[Feature Request] Print project directory when diagnostics enabled",
@@ -2997,7 +4242,12 @@
         "author": "AnyhowStep",
         "comments": 3,
         "repository": "microsoft/TypeScript",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT250": {
         "title": "deps: V8: workaround for darwin arm64 code page decommit failures",
@@ -3009,7 +4259,12 @@
         "author": "matinzd",
         "comments": 10,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT251": {
         "title": "Can't disband group when leader, if no one else is in group.",
@@ -3021,7 +4276,12 @@
         "author": "Maxim416",
         "comments": 10,
         "repository": "WarEmu/WarBugs",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT252": {
         "title": "Make auth_method_picker layout work in landscape",
@@ -3033,7 +4293,12 @@
         "author": "samtstern",
         "comments": 3,
         "repository": "firebase/FirebaseUI-Android",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT253": {
         "title": "docs: Removed how-to-work-on-guide-articles from 4 languages",
@@ -3045,7 +4310,12 @@
         "author": "ilse-macias",
         "comments": 8,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT254": {
         "title": "npm install fails with 403 NotSupportedBrowser",
@@ -3057,7 +4327,12 @@
         "author": "krajuri",
         "comments": 3,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT255": {
         "title": "Object spread can lead to unknown properties added [Regression v3.1.6]",
@@ -3069,7 +4344,12 @@
         "author": "Cellule",
         "comments": 13,
         "repository": "microsoft/TypeScript",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT256": {
         "title": "signal higher priority update",
@@ -3081,7 +4361,12 @@
         "author": "dakom",
         "comments": 3,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT257": {
         "title": "Put local methods into chained constructor argument scope",
@@ -3093,7 +4378,12 @@
         "author": "mikernet",
         "comments": 3,
         "repository": "dotnet/csharplang",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT258": {
         "title": "fix a small typo",
@@ -3105,7 +4395,12 @@
         "author": "tebeco",
         "comments": 3,
         "repository": "microsoft/vs-streamjsonrpc",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT259": {
         "title": "\u26a0\ufe0f\ud83d\udea7\ud83d\udc77 Scheduled rename `master` branch to `main`",
@@ -3117,7 +4412,12 @@
         "author": "joaomoreno",
         "comments": 5,
         "repository": "microsoft/vscode",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT260": {
         "title": "[1.15] IForgeBlockState.getAiPathNodeType is never called",
@@ -3129,7 +4429,12 @@
         "author": "Snownee",
         "comments": 4,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT261": {
         "title": "[proposal] provide benchmarks for the claims in changelog 3.16.0 and against other state managements",
@@ -3141,7 +4446,12 @@
         "author": "iapicca",
         "comments": 8,
         "repository": "jonataslaw/getx",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT262": {
         "title": "Support for 32 bits architecture",
@@ -3153,7 +4463,12 @@
         "author": "mihaimaruseac",
         "comments": 15,
         "repository": "tensorflow/tensorflow",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT263": {
         "title": "Inconsistent type styling in Godot editor",
@@ -3165,7 +4480,12 @@
         "author": "CitrusWire",
         "comments": 18,
         "repository": "godotengine/godot",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT264": {
         "title": "Make copyto!(A,I) work for rectangular matrices",
@@ -3177,7 +4497,12 @@
         "author": "Jutho",
         "comments": 3,
         "repository": "JuliaLang/julia",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT265": {
         "title": "Fix crashes on Linux/PPC64 ELFv1",
@@ -3189,7 +4514,12 @@
         "author": "zeldin",
         "comments": 13,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT266": {
         "title": "FR: Firebase Analytics Server Side",
@@ -3201,7 +4531,12 @@
         "author": "cemo",
         "comments": 42,
         "repository": "firebase/firebase-admin-java",
-        "derailPoint": "12"
+        "derailPoint": "12",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "12"
+        }
     },
     "ROOT267": {
         "title": "So many issues and pull requests with only one contributor?",
@@ -3213,7 +4548,12 @@
         "author": "taoso",
         "comments": 11,
         "repository": "vim/vim",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT268": {
         "title": "Lerna commands throw yargs warning",
@@ -3225,7 +4565,12 @@
         "author": "mskelton",
         "comments": 10,
         "repository": "lerna/lerna",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT269": {
         "title": "How I can add Yandex RTB (Ads-code) to Gatsby?",
@@ -3237,7 +4582,12 @@
         "author": "nikolayval",
         "comments": 6,
         "repository": "gatsbyjs/gatsby",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT270": {
         "title": "Add help option to `list --help` output",
@@ -3249,7 +4599,12 @@
         "author": "sfoslund",
         "comments": 6,
         "repository": "dotnet/cli-lab",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT271": {
         "title": "Uri.resolveUri does not work correctly for relative URIs.",
@@ -3261,7 +4616,12 @@
         "author": "scheglov",
         "comments": 12,
         "repository": "dart-lang/sdk",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT272": {
         "title": "Quarantine flaky test",
@@ -3273,7 +4633,12 @@
         "author": "pranavkm",
         "comments": 3,
         "repository": "dotnet/aspnetcore",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT273": {
         "title": "[8.x] deps: V8: cherry-pick 8361fa58 from upstream",
@@ -3285,7 +4650,12 @@
         "author": "ofrobots",
         "comments": 9,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT274": {
         "title": "\"Unable to find source java class\" error when file modified sits within symlinked source directory",
@@ -3297,7 +4667,12 @@
         "author": "DarioAhdoot",
         "comments": 9,
         "repository": "gradle/gradle",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT275": {
         "title": "practice commit - please ignore!",
@@ -3309,7 +4684,12 @@
         "author": "sjaugmented",
         "comments": 4,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT276": {
         "title": "gccgo: internal compiler error: in mangled_name",
@@ -3321,7 +4701,12 @@
         "author": "jopbrown",
         "comments": 4,
         "repository": "golang/go",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT277": {
         "title": "Find a way to fit panel headers into the smaller minimum width",
@@ -3333,7 +4718,12 @@
         "author": "Kroc",
         "comments": 15,
         "repository": "microsoft/vscode",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT278": {
         "title": "Add Stories to Windows Terminal ",
@@ -3345,7 +4735,12 @@
         "author": "filmgirl",
         "comments": 49,
         "repository": "microsoft/terminal",
-        "derailPoint": "16"
+        "derailPoint": "16",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "16"
+        }
     },
     "ROOT279": {
         "title": "Add an AuthUI.reauthenticate() function",
@@ -3357,7 +4752,12 @@
         "author": "samtstern",
         "comments": 9,
         "repository": "firebase/FirebaseUI-Android",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT280": {
         "title": "Open an RFC to discuss decision to revert License and remove Jamie",
@@ -3369,7 +4769,12 @@
         "author": "hannahhoward",
         "comments": 95,
         "repository": "lerna/lerna",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT281": {
         "title": "\u23f1\ufe0f Call to action: Help shape the future for ASP.NET Core",
@@ -3381,7 +4786,12 @@
         "author": "mkArtakMSFT",
         "comments": 89,
         "repository": "dotnet/aspnetcore",
-        "derailPoint": "32"
+        "derailPoint": "32",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "32"
+        }
     },
     "ROOT282": {
         "title": "Strange behaviour of Delete Line and Insert Line when used above the top margin",
@@ -3393,7 +4803,12 @@
         "author": "j4james",
         "comments": 5,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT283": {
         "title": "RTL text selection",
@@ -3405,7 +4820,12 @@
         "author": "salar90",
         "comments": 39,
         "repository": "atom/atom",
-        "derailPoint": "10"
+        "derailPoint": "10",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "10"
+        }
     },
     "ROOT284": {
         "title": "Consider JSX-like syntax inside dart code",
@@ -3417,7 +4837,12 @@
         "author": "cbazza",
         "comments": 239,
         "repository": "flutter/flutter",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT285": {
         "title": "cnn.com time to interactive is 11s-22s",
@@ -3429,7 +4854,12 @@
         "author": "matti",
         "comments": 6,
         "repository": "GoogleChrome/lighthouse",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT286": {
         "title": "Do not warn when DOM attribute values are undefined",
@@ -3441,7 +4871,12 @@
         "author": "stephan-noel",
         "comments": 16,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT287": {
         "title": "fix(client): Improve client validation accessibility",
@@ -3453,7 +4888,12 @@
         "author": "kishore-devaraj",
         "comments": 5,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT288": {
         "title": "Allow subdirectories within git repos in npm install ",
@@ -3465,7 +4905,12 @@
         "author": "SLaks",
         "comments": 79,
         "repository": "npm/npm",
-        "derailPoint": "69"
+        "derailPoint": "69",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "69"
+        }
     },
     "ROOT289": {
         "title": "Bug: state could be reset into the initialValue when using StrictMode",
@@ -3477,7 +4922,12 @@
         "author": "theKashey",
         "comments": 10,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT290": {
         "title": "Editor Utility Tools Update",
@@ -3489,7 +4939,12 @@
         "author": "StephenHodgson",
         "comments": 4,
         "repository": "microsoft/MixedRealityToolkit-Unity",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT291": {
         "title": "Add a help text about top contributors on the profile",
@@ -3501,7 +4956,12 @@
         "author": "raisedadead",
         "comments": 3,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT292": {
         "title": "No way to select tenant number greater than 9 in Azure Cloud Shell connector",
@@ -3513,7 +4973,12 @@
         "author": "MikeEvansLarah",
         "comments": 3,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT293": {
         "title": "Crypt Fever/Ebon Plaguebringer Bug",
@@ -3525,7 +4990,12 @@
         "author": "Nylco",
         "comments": 9,
         "repository": "SunwellTracker/issues",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT294": {
         "title": "Terminal should dodge the onscreen keyboard slightly better",
@@ -3537,7 +5007,12 @@
         "author": "guai",
         "comments": 6,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT295": {
         "title": "ref-struct errors can be suppressed in VB.",
@@ -3549,7 +5024,12 @@
         "author": "CyrusNajmabadi",
         "comments": 13,
         "repository": "dotnet/roslyn",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT296": {
         "title": "ES6 - Write Higher Order Arrow Functions - About Chaining, Needs Clarification",
@@ -3561,7 +5041,12 @@
         "author": "SaintPeter",
         "comments": 31,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": "20"
+        "derailPoint": "20",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "20"
+        }
     },
     "ROOT297": {
         "title": "Menu and mouse behavior enhancement suggestion",
@@ -3573,7 +5058,12 @@
         "author": "NiNEngine",
         "comments": 8,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT298": {
         "title": "Where you do locate the LIWC English dictionary once you purchase the LIWC license?",
@@ -3585,7 +5075,12 @@
         "author": "illushka",
         "comments": 42,
         "repository": "chbrown/liwc-python",
-        "derailPoint": "26"
+        "derailPoint": "26",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "26"
+        }
     },
     "ROOT299": {
         "title": "Add Facebook, Twitter, and XBoxLive leader board support to System.Exception",
@@ -3597,7 +5092,12 @@
         "author": "OtherCrashOverride",
         "comments": 9,
         "repository": "dotnet/runtime",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT300": {
         "title": "[Feature Request] Free dark theme",
@@ -3609,7 +5109,12 @@
         "author": "sadahadim",
         "comments": 7,
         "repository": "standardnotes/forum",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT301": {
         "title": "Tileset:  Expose bitmask flags (as a property?)",
@@ -3621,7 +5126,12 @@
         "author": "nobuyukinyuu",
         "comments": 3,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT302": {
         "title": "Add WSL distro default desktop wallpapers as default background",
@@ -3633,7 +5143,12 @@
         "author": "WSLUser",
         "comments": 8,
         "repository": "microsoft/terminal",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT303": {
         "title": "net/http: TimeoutHandler hides panic locations",
@@ -3645,7 +5160,12 @@
         "author": "pvhau",
         "comments": 11,
         "repository": "golang/go",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT304": {
         "title": "DNS Problem with apt-get",
@@ -3657,7 +5177,12 @@
         "author": "ewolff",
         "comments": 3,
         "repository": "microsoft/WSL",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT305": {
         "title": "One last thing sorry for creating another issue I didnt know where else to comment or ask",
@@ -3669,7 +5194,12 @@
         "author": "HaloFloof",
         "comments": 15,
         "repository": "pterodactyl/whmcs",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT306": {
         "title": "doc: Improve doc for Http2 headers object",
@@ -3681,7 +5211,12 @@
         "author": "Flarna",
         "comments": 9,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT307": {
         "title": "improve performance of parse",
@@ -3693,7 +5228,12 @@
         "author": "KristofferC",
         "comments": 8,
         "repository": "JuliaLang/julia",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT308": {
         "title": "enhancement: rename master branch to stable",
@@ -3705,7 +5245,12 @@
         "author": "stapelberg",
         "comments": 9,
         "repository": "i3/i3",
-        "derailPoint": "3"
+        "derailPoint": "3",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "3"
+        }
     },
     "ROOT309": {
         "title": "atom as an editor is too big",
@@ -3717,7 +5262,12 @@
         "author": "crquan",
         "comments": 20,
         "repository": "atom/atom",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT310": {
         "title": "encrypt is decrypting wrong",
@@ -3729,7 +5279,12 @@
         "author": "christhomas",
         "comments": 3,
         "repository": "travis-ci/travis-ci",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT311": {
         "title": "fix crash on iOS 13 ",
@@ -3741,7 +5296,12 @@
         "author": "ealataur",
         "comments": 11,
         "repository": "godotengine/godot",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT312": {
         "title": "Why Angular can be overcomplicated?",
@@ -3753,7 +5313,12 @@
         "author": "splincode",
         "comments": 36,
         "repository": "angular/angular",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT313": {
         "title": "VS2017express C#, tabs replaced with spaces",
@@ -3765,7 +5330,12 @@
         "author": "vsfeedback",
         "comments": 61,
         "repository": "dotnet/roslyn",
-        "derailPoint": "14"
+        "derailPoint": "14",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "14"
+        }
     },
     "ROOT314": {
         "title": "fix or document proper configuration for specifying default output order",
@@ -3777,7 +5347,12 @@
         "author": "archenemies",
         "comments": 5,
         "repository": "apple/cups",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT315": {
         "title": "Change non-inclusive naming",
@@ -3789,7 +5364,12 @@
         "author": "dscho",
         "comments": 178,
         "repository": "git-for-windows/git",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT316": {
         "title": "TS-Check: Property 'createEventObject' does not exist on type 'Document'",
@@ -3801,7 +5381,12 @@
         "author": "Friksel",
         "comments": 4,
         "repository": "microsoft/TypeScript",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT317": {
         "title": "Added chunk instance to ChunkWatchEvent",
@@ -3813,7 +5398,12 @@
         "author": "TheCyberBrick",
         "comments": 13,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT318": {
         "title": "False negatives in results for some Exchange versions (http-vuln-cve2021-26855.nse)",
@@ -3825,7 +5415,12 @@
         "author": "hrbrmstr",
         "comments": 14,
         "repository": "microsoft/CSS-Exchange",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT319": {
         "title": "No built application for download",
@@ -3837,7 +5432,12 @@
         "author": "creotiv",
         "comments": 32,
         "repository": "microsoft/terminal",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT320": {
         "title": "Active owner badly needed",
@@ -3849,7 +5449,12 @@
         "author": "brodybits",
         "comments": 21,
         "repository": "Semantic-Org/Semantic-UI",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT321": {
         "title": "Fix some wording translation in german (de-DE/Resources.resw) #141",
@@ -3861,7 +5466,12 @@
         "author": "michilehr",
         "comments": 12,
         "repository": "microsoft/calculator",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT322": {
         "title": "Too tricky explanation of Win32 support",
@@ -3873,7 +5483,12 @@
         "author": "WrongBit",
         "comments": 10,
         "repository": "microsoft/microsoft-ui-xaml",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT323": {
         "title": "[1.15.1] Add event for when a chat packet is about to be sent from the server to a client",
@@ -3885,7 +5500,12 @@
         "author": "The-Fireplace",
         "comments": 5,
         "repository": "MinecraftForge/MinecraftForge",
-        "derailPoint": "1"
+        "derailPoint": "1",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "1"
+        }
     },
     "ROOT324": {
         "title": "worth/sell blocks does entire inventory instead of just blocks",
@@ -3897,7 +5517,12 @@
         "author": "goosewoman",
         "comments": 9,
         "repository": "EssentialsX/Essentials",
-        "derailPoint": "4"
+        "derailPoint": "4",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "4"
+        }
     },
     "ROOT325": {
         "title": "doc: fixed typos in api/console.md and api/crypto.md",
@@ -3909,7 +5534,12 @@
         "author": "marsonya",
         "comments": 3,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT326": {
         "title": "Hardware Support",
@@ -3921,7 +5551,12 @@
         "author": "chris00001",
         "comments": 8,
         "repository": "SolidHal/PrawnOS",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT327": {
         "title": "Curiosity: Why are nested items in BS4 have full class names again?",
@@ -3933,7 +5568,12 @@
         "author": "bertoost",
         "comments": 4,
         "repository": "twbs/bootstrap",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT328": {
         "title": "Twig syntax highlighting broken",
@@ -3945,7 +5585,12 @@
         "author": "ericmorand",
         "comments": 16,
         "repository": "jekyll/jekyll",
-        "derailPoint": "7"
+        "derailPoint": "7",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "7"
+        }
     },
     "ROOT329": {
         "title": "API Access to \"Open Editors\"",
@@ -3957,7 +5602,12 @@
         "author": "ChuckJonas",
         "comments": 97,
         "repository": "microsoft/vscode",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT330": {
         "title": "Source Generator fails unless the generator source code is modified.",
@@ -3969,7 +5619,12 @@
         "author": "trampster",
         "comments": 3,
         "repository": "dotnet/roslyn",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT331": {
         "title": "This Tools is not run for Ex2010  ?",
@@ -3981,7 +5636,12 @@
         "author": "rezatbahtera",
         "comments": 26,
         "repository": "microsoft/CSS-Exchange",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT332": {
         "title": "##vso[task.prependpath] in linux always results in an extra quote added wiht the prepended path",
@@ -3993,7 +5653,12 @@
         "author": "mjscosta",
         "comments": 16,
         "repository": "microsoft/azure-pipelines-tasks",
-        "derailPoint": "8"
+        "derailPoint": "8",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "8"
+        }
     },
     "ROOT333": {
         "title": "BUG: MeshPhongMaterial flicker with flatShading: false",
@@ -4005,7 +5670,12 @@
         "author": "kpetrow",
         "comments": 31,
         "repository": "mrdoob/three.js",
-        "derailPoint": "9"
+        "derailPoint": "9",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "9"
+        }
     },
     "ROOT334": {
         "title": "No network connection in any distribution under WSL 2",
@@ -4017,7 +5687,12 @@
         "author": "duncanmmacleod",
         "comments": 201,
         "repository": "microsoft/WSL",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT335": {
         "title": "why",
@@ -4029,7 +5704,12 @@
         "author": "ghost",
         "comments": 3,
         "repository": "can1357/NtLua",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT336": {
         "title": "restart salt-syndic when salt-master restart",
@@ -4041,7 +5721,12 @@
         "author": "vinian",
         "comments": 3,
         "repository": "saltstack/salt",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT337": {
         "title": "[Tasks/config/tasks] Fixes Autoprefixer warnings in build log",
@@ -4053,7 +5738,12 @@
         "author": "nitzel",
         "comments": 4,
         "repository": "Semantic-Org/Semantic-UI",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT338": {
         "title": "The removal of Santa Hat on vscode insiders is very offensive and has nothing to do with religion ",
@@ -4065,7 +5755,12 @@
         "author": "Danielx64",
         "comments": 13,
         "repository": "microsoft/vscode",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT339": {
         "title": "Change Detection is not working with asynchronous route changes",
@@ -4077,7 +5772,12 @@
         "author": "akopchinskiy",
         "comments": 9,
         "repository": "angular/angular",
-        "derailPoint": "5"
+        "derailPoint": "5",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "5"
+        }
     },
     "ROOT340": {
         "title": "cleanup of leftover part of a comment. Follow up for #94109",
@@ -4089,7 +5789,12 @@
         "author": "SergeyKanzhelev",
         "comments": 6,
         "repository": "kubernetes/kubernetes",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT341": {
         "title": "Add \"sync_mods\" argument to state.apply/state.sls",
@@ -4101,7 +5806,12 @@
         "author": "terminalmage",
         "comments": 3,
         "repository": "saltstack/salt",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT342": {
         "title": "gatling stuck when project has other dependencies",
@@ -4113,7 +5823,12 @@
         "author": "kgignatyev-inspur",
         "comments": 5,
         "repository": "gatling/gatling",
-        "derailPoint": "2"
+        "derailPoint": "2",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "2"
+        }
     },
     "ROOT343": {
         "title": "doc: fix typo in fs.md",
@@ -4125,7 +5840,12 @@
         "author": "hugojosefson",
         "comments": 10,
         "repository": "nodejs/node",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT344": {
         "title": "GPU_Base dockerfile image not found",
@@ -4137,7 +5857,12 @@
         "author": "sibleyd",
         "comments": 3,
         "repository": "tensorflow/tensorflow",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT345": {
         "title": "Create an example showcasing how to do URL-scraping to get files for sunpy.map.Map",
@@ -4149,7 +5874,12 @@
         "author": "kakirastern",
         "comments": 16,
         "repository": "sunpy/sunpy",
-        "derailPoint": "9"
+        "derailPoint": "9",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "9"
+        }
     },
     "ROOT346": {
         "title": "Four Years Later.",
@@ -4161,7 +5891,12 @@
         "author": "ghost",
         "comments": 26,
         "repository": "Monika-After-Story/MonikaModDev",
-        "derailPoint": "0"
+        "derailPoint": "0",
+        "meta": {
+            "split": "test",
+            "heated": true,
+            "derailPoint": "0"
+        }
     },
     "ROOT347": {
         "title": "CUDA 7.5 fails with pip install and docker (Ubuntu 14.04)",
@@ -4173,7 +5908,12 @@
         "author": "soumith",
         "comments": 54,
         "repository": "tensorflow/tensorflow",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "val",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT348": {
         "title": "fix: removed trailing spaces, fixed a typo",
@@ -4185,7 +5925,12 @@
         "author": "tr1s",
         "comments": 5,
         "repository": "freeCodeCamp/freeCodeCamp",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "train",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT349": {
         "title": "Bug: Sometimes useEffect() callback is called before render",
@@ -4197,7 +5942,12 @@
         "author": "ildar-icoosoft",
         "comments": 3,
         "repository": "facebook/react",
-        "derailPoint": null
+        "derailPoint": null,
+        "meta": {
+            "split": "test",
+            "heated": false,
+            "derailPoint": null
+        }
     },
     "ROOT350": {
         "title": "Fail to compile under VS2017",
@@ -4209,7 +5959,12 @@
         "author": "Xispeo",
         "comments": 7,
         "repository": "microsoft/MixedRealityToolkit-Unity",
-        "derailPoint": "6"
+        "derailPoint": "6",
+        "meta": {
+            "split": "val",
+            "heated": true,
+            "derailPoint": "6"
+        }
     },
     "ROOT351": {
         "title": "Feature: Allow until-loops on blocks or includes",
@@ -4221,6 +5976,11 @@
         "author": "dagwieers",
         "comments": 30,
         "repository": "ansible/ansible",
-        "derailPoint": "17"
+        "derailPoint": "17",
+        "meta": {
+            "split": "train",
+            "heated": true,
+            "derailPoint": "17"
+        }
     }
 }

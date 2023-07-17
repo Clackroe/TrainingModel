@@ -7,14 +7,18 @@ import unicodedata
 
 from .config import *
 
+
 class Voc:
     def __init__(self, name, word2index=None, index2word=None):
         self.name = name
-        self.trimmed = False if not word2index else True # if a precomputed vocab is specified assume the user wants to use it as-is
+        # if a precomputed vocab is specified assume the user wants to use it as-is
+        self.trimmed = False if not word2index else True
         self.word2index = word2index if word2index else {"UNK": UNK_token}
         self.word2count = {}
-        self.index2word = index2word if index2word else {PAD_token: "PAD", SOS_token: "SOS", EOS_token: "EOS", UNK_token: "UNK"}
-        self.num_words = 4 if not index2word else len(index2word)  # Count SOS, EOS, PAD, UNK
+        self.index2word = index2word if index2word else {
+            PAD_token: "PAD", SOS_token: "SOS", EOS_token: "EOS", UNK_token: "UNK"}
+        self.num_words = 4 if not index2word else len(
+            index2word)  # Count SOS, EOS, PAD, UNK
 
     def addSentence(self, sentence):
         for word in sentence.split(' '):
@@ -42,20 +46,24 @@ class Voc:
                 keep_words.append(k)
 
         print('keep_words {} / {} = {:.4f}'.format(
-            len(keep_words), len(self.word2index), len(keep_words) / len(self.word2index)
+            len(keep_words), len(self.word2index), len(
+                keep_words) / len(self.word2index)
         ))
 
         # Reinitialize dictionaries
         self.word2index = {"UNK": UNK_token}
         self.word2count = {}
-        self.index2word = {PAD_token: "PAD", SOS_token: "SOS", EOS_token: "EOS", UNK_token: "UNK"}
-        self.num_words = 4 # Count default tokens
+        self.index2word = {PAD_token: "PAD", SOS_token: "SOS",
+                           EOS_token: "EOS", UNK_token: "UNK"}
+        self.num_words = 4  # Count default tokens
 
         for word in keep_words:
             self.addWord(word)
 
 # Turn a Unicode string to plain ASCII, thanks to
 # https://stackoverflow.com/a/518232/2809427
+
+
 def unicodeToAscii(s):
     return ''.join(
         c for c in unicodedata.normalize('NFD', s)
@@ -63,6 +71,8 @@ def unicodeToAscii(s):
     )
 
 # Tokenize the string using NLTK
+
+
 def tokenize(text):
     tokenizer = nltk.tokenize.RegexpTokenizer(pattern=r'\w+|[^\w\s]')
     # simplify the problem space by considering only ASCII data
@@ -71,10 +81,12 @@ def tokenize(text):
     # if the resulting string is empty, nothing else to do
     if not cleaned_text.strip():
         return []
-    
+
     return tokenizer.tokenize(cleaned_text)
 
 # Create a Voc object from precomputed data structures
+
+
 def loadPrecomputedVoc(corpus_name, word2index_path, index2word_path):
     with open(word2index_path) as fp:
         word2index = json.load(fp)
@@ -86,6 +98,8 @@ def loadPrecomputedVoc(corpus_name, word2index_path, index2word_path):
 # each utterance's text by tokenizing and truncating.
 # Returns the processed dialog entry where text has been replaced with a list of
 # tokens, each no longer than MAX_LENGTH - 1 (to leave space for the EOS token)
+
+
 def processDialog(voc, dialog):
     processed = []
     for utterance in dialog:
@@ -96,7 +110,8 @@ def processDialog(voc, dialog):
         for i in range(len(tokens)):
             if tokens[i] not in voc.word2index:
                 tokens[i] = "UNK"
-        processed.append({"tokens": tokens, "is_attack": utterance.get("labels", {}).get("is_attack", None), "convo_id": utterance.get("labels", {}).get("id", None)})
+        processed.append({"tokens": tokens, "is_attack": utterance.get("labels", {}).get(
+            "is_attack", None), "convo_id": utterance.get("labels", {}).get("id", None)})
     return processed
 
 # Load context-reply pairs from the given dataset.
@@ -104,6 +119,8 @@ def processDialog(voc, dialog):
 # absolutely necessary by cleaning each utterance (tokenize, truncate, replace OOV tokens)
 # line by line in this function.
 # Returns a list of pairs in the format (context, reply, label)
+
+
 def loadPairs(voc, path, last_only=False):
     pairs = []
     with open(path) as datafile:
@@ -111,7 +128,8 @@ def loadPairs(voc, path, last_only=False):
             print("\rLine {}".format(i+1), end='')
             raw_convo_data = json.loads(line)
             dialog = processDialog(voc, raw_convo_data)
-            iter_range = range(1, len(dialog)) if not last_only else [len(dialog)-1]
+            iter_range = range(1, len(dialog)) if not last_only else [
+                len(dialog)-1]
             for idx in iter_range:
                 reply = dialog[idx]["tokens"][:(MAX_LENGTH-1)]
                 label = dialog[idx]["is_attack"]
@@ -124,6 +142,8 @@ def loadPairs(voc, path, last_only=False):
     return pairs
 
 # Using the functions defined above, return a list of pairs for unlabeled training
+
+
 def loadUnlabeledData(voc, train_path):
     print("Start preparing training data ...")
     print("Preprocessing training corpus...")
@@ -132,6 +152,8 @@ def loadUnlabeledData(voc, train_path):
     return train_pairs
 
 # Using the functions defined above, return a list of pairs for labeled training
+
+
 def loadLabeledData(voc, attack_train_path, attack_val_path, analysis_path):
     print("Start preparing training data ...")
     print("Preprocessing labeled training corpus...")
@@ -145,11 +167,17 @@ def loadLabeledData(voc, attack_train_path, attack_val_path, analysis_path):
     print("Loaded {} pairs".format(len(analysis_pairs)))
     return attack_train_pairs, attack_val_pairs, analysis_pairs
 
+
 def indexesFromSentence(voc, sentence):
-    return [voc.word2index[word] for word in sentence] + [EOS_token]
+    try:
+        return [voc.word2index[word] for word in sentence] + [EOS_token]
+    except:
+        return [3]
+
 
 def zeroPadding(l, fillvalue=PAD_token):
     return list(itertools.zip_longest(*l, fillvalue=fillvalue))
+
 
 def binaryMatrix(l, value=PAD_token):
     m = []
@@ -165,8 +193,11 @@ def binaryMatrix(l, value=PAD_token):
 # Takes a batch of dialogs (lists of lists of tokens) and converts it into a
 # batch of utterances (lists of tokens) sorted by length, while keeping track of
 # the information needed to reconstruct the original batch of dialogs
+
+
 def dialogBatch2UtteranceBatch(dialog_batch):
-    utt_tuples = [] # will store tuples of (utterance, original position in batch, original position in dialog)
+    # will store tuples of (utterance, original position in batch, original position in dialog)
+    utt_tuples = []
     for batch_idx in range(len(dialog_batch)):
         dialog = dialog_batch[batch_idx]
         for dialog_idx in range(len(dialog)):
@@ -181,6 +212,8 @@ def dialogBatch2UtteranceBatch(dialog_batch):
     return utt_batch, batch_indices, dialog_indices
 
 # Returns padded input sequence tensor and lengths
+
+
 def inputVar(l, voc):
     indexes_batch = [indexesFromSentence(voc, sentence) for sentence in l]
     lengths = torch.tensor([len(indexes) for indexes in indexes_batch])
@@ -189,6 +222,8 @@ def inputVar(l, voc):
     return padVar, lengths
 
 # Returns padded target sequence tensor, padding mask, and max target length
+
+
 def outputVar(l, voc):
     indexes_batch = [indexesFromSentence(voc, sentence) for sentence in l]
     max_target_len = max([len(indexes) for indexes in indexes_batch])
@@ -199,6 +234,8 @@ def outputVar(l, voc):
     return padVar, mask, max_target_len
 
 # Returns all items for a given batch of pairs
+
+
 def batch2TrainData(voc, pair_batch, already_sorted=False):
     if not already_sorted:
         pair_batch.sort(key=lambda x: len(x[0]), reverse=True)
@@ -209,11 +246,14 @@ def batch2TrainData(voc, pair_batch, already_sorted=False):
         label_batch.append(pair[2])
         id_batch.append(pair[3])
     dialog_lengths = torch.tensor([len(x) for x in input_batch])
-    input_utterances, batch_indices, dialog_indices = dialogBatch2UtteranceBatch(input_batch)
+    input_utterances, batch_indices, dialog_indices = dialogBatch2UtteranceBatch(
+        input_batch)
     inp, utt_lengths = inputVar(input_utterances, voc)
     output, mask, max_target_len = outputVar(output_batch, voc)
-    label_batch = torch.FloatTensor(label_batch) if label_batch[0] is not None else None
+    label_batch = torch.FloatTensor(
+        label_batch) if label_batch[0] is not None else None
     return inp, dialog_lengths, utt_lengths, batch_indices, dialog_indices, label_batch, id_batch, output, mask, max_target_len
+
 
 def batchIterator(voc, source_data, batch_size, shuffle=True):
     cur_idx = 0
@@ -234,5 +274,5 @@ def batchIterator(voc, source_data, batch_size, shuffle=True):
         batch_labels = [x[2] for x in batch]
         # convert batch to tensors
         batch_tensors = batch2TrainData(voc, batch, already_sorted=True)
-        yield (batch_tensors, batch_dialogs, batch_labels, true_batch_size) 
+        yield (batch_tensors, batch_dialogs, batch_labels, true_batch_size)
         cur_idx += batch_size
