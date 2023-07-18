@@ -1,7 +1,6 @@
 import json
 import random
 
-
 data = {}
 
 with open("SmallData/conversations.json", "r") as f:
@@ -11,9 +10,10 @@ with open("SmallData/conversations.json", "r") as f:
         itemName = item
         item = jsonData[item]
         # print(item)
+        item.update(item['meta'])
 
-        item.update({"meta": {"split": random.choice(
-            ["train", "val", "test"]), "heated": item['heated'], "derailPoint": item["derailPoint"]}})
+        item.update({"meta": {"split": random.choices(
+            ["train", "val", "test"], weights=(80, 10, 10))[0], "heated": item['meta']['heated'], "derailPoint": item['meta']["derailPoint"]}})
 
         data.update({itemName: item})
         f.close()

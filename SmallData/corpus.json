@@ -1,1 +1,1 @@
-{"from": "GitHubIssues", "numComments": "---", "numParticipants": "---"}
+{"numComments": "---", "numParticipants": "---", "utterances": 8092, "conversations": 352, "correctPredictions": 286, "CorectPredctions-Heated": 156, "CorrectPrediction-Civil": 130, "totalPredictedHeated": 202, "totalPredictedCivil": 150, "totalReallyHeated": 176, "totalReallyCivil": 176, "falsePositives": 46, "falseNegatives": 20, "truePositives": 156, "trueNegatives": 130, "precisionScore": 0.7722772277227723, "recallScore": 0.8863636363636364, "fOneScore": 0.8253968253968254}

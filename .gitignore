@@ -3,3 +3,4 @@
 nn_input_data
 saved_models
 model.tar
+*.tar
