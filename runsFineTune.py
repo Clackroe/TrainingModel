@@ -42,6 +42,8 @@ from model.model import *
 def processDialog(voc, dialog):
     processed = []
     for utterance in dialog.iter_utterances():
+        if utterance.text == "":
+            utterance.text = "UNK"
         # skip the section header, which does not contain conversational content
         tokens = tokenize(utterance.text)
         # replace out-of-vocabulary tokens
@@ -73,14 +75,14 @@ def loadPairs(voc, corpus, split=None, last_only=False):
             iter_range = range(1, len(dialog)) if not last_only else [
                 len(dialog)-1]
             # --
-            if convo.meta['derailPoint'] is None:
-                convDerail = None
-            else:
-                convDerail = int(convo.meta['derailPoint'])
-                if convDerail == 0:
-                    convDerail = convo.id
-                else:
-                    convDerail = f"COM{convo.id.replace('ROOT', '')}_{convDerail-1}"
+            # if convo.meta['derailPoint'] is None:
+            #     convDerail = None
+            # else:
+            #     convDerail = int(convo.meta['derailPoint'])
+            #     if convDerail == 0:
+            #         convDerail = convo.id
+            #     else:
+            #         convDerail = f"COM{convo.id.replace('ROOT', '')}_{convDerail-1}"
             # --
             for idx in iter_range:
                 reply = dialog[idx]["tokens"][:(MAX_LENGTH-1)]
@@ -88,13 +90,16 @@ def loadPairs(voc, corpus, split=None, last_only=False):
                 # print(convDerail)
                 # label = True if dialog[idx]["id"].strip(
                 # ) == convDerail else False
-                comment_id = dialog[idx]
                 # print(dialog[idx])
+                # print(dialog[idx]["prediction"])
                 label = dialog[idx]["prediction"]
+                comment_id = dialog[idx]
+
               # --
                 # gather as context all utterances preceding the reply
                 context = [u["tokens"][:(MAX_LENGTH-1)] for u in dialog[:idx]]
-                pairs.append((context, reply, label, comment_id))
+                if (context != [] and reply != [] and label is not None):
+                    pairs.append((context, reply, label, comment_id))
     return pairs
 
 # [markdown]
@@ -226,6 +231,8 @@ def train(input_variable, dialog_lengths, dialog_lengths_list, utt_lengths, batc
     # Forward pass through classifier to get prediction logits
     logits = attack_clf(context_encoder_outputs, dialog_lengths)
 
+    # print(f"Logits: {logits.size()} | Labels: {labels.size()}")
+
     # Calculate loss
     loss = F.binary_cross_entropy_with_logits(logits, labels)
 
@@ -275,7 +282,12 @@ def validate(dataset, encoder, context_encoder, predictor, voc, batch_size, devi
         predictions, scores = evaluateBatch(encoder, context_encoder, predictor, voc, input_variable,
                                             dialog_lengths, dialog_lengths_list, utt_lengths, batch_indices, dialog_indices,
                                             true_batch_size, device)
+
         # aggregate results for computing accuracy at the end
+        # print(predictions)
+        if predictions.dim() == 0:
+            predictions = predictions.unsqueeze(0)
+
         all_preds += [p.item() for p in predictions]
         all_labels += [l.item() for l in labels]
         print("Iteration: {}; Percent complete: {:.1f}%".format(
@@ -333,26 +345,26 @@ def trainIters(voc, pairs, val_pairs, encoder, context_encoder, attack_clf,
             attack_clf.eval()
 
             predictor = Predictor(encoder, context_encoder, attack_clf)
-            # accuracy = validate(
-            #     val_pairs, encoder, context_encoder, predictor, voc, batch_size, device)
-            # print("Validation set accuracy: {:.2f}%".format(accuracy * 100))
+            accuracy = validate(
+                val_pairs, encoder, context_encoder, predictor, voc, batch_size, device)
+            print("Validation set accuracy: {:.2f}%".format(accuracy * 100))
 
-            # # keep track of our best model so far
-            # if accuracy > best_acc:
-            print("Validation accuracy better than current best; saving model...")
-            best_acc = 000
-            torch.save({
-                'iteration': iteration,
-                'en': encoder.state_dict(),
-                'ctx': context_encoder.state_dict(),
-                'atk_clf': attack_clf.state_dict(),
-                'en_opt': encoder_optimizer.state_dict(),
-                'ctx_opt': context_encoder_optimizer.state_dict(),
-                'atk_clf_opt': attack_clf_optimizer.state_dict(),
-                'loss': loss,
-                'voc_dict': voc.__dict__,
-                'embedding': embedding.state_dict()
-            }, "finetuned_model.tar")
+            # keep track of our best model so far
+            if accuracy > best_acc:
+                print("Validation accuracy better than current best; saving model...")
+                best_acc = accuracy
+                torch.save({
+                    'iteration': iteration,
+                    'en': encoder.state_dict(),
+                    'ctx': context_encoder.state_dict(),
+                    'atk_clf': attack_clf.state_dict(),
+                    'en_opt': encoder_optimizer.state_dict(),
+                    'ctx_opt': context_encoder_optimizer.state_dict(),
+                    'atk_clf_opt': attack_clf_optimizer.state_dict(),
+                    'loss': loss,
+                    'voc_dict': voc.__dict__,
+                    'embedding': embedding.state_dict()
+                }, "finetuned_model.tar")
 
             # put the network components back into training mode
             encoder.train()
@@ -483,7 +495,7 @@ random.seed(2019)
 device = torch.device('cuda')
 
 print("Loading saved parameters...")
-checkpoint = torch.load(os.path.join(save_dir, "finetuned_model.tar"))
+checkpoint = torch.load("finetuned_model.tar")
 # If running in a non-GPU environment, you need to tell PyTorch to convert the parameters to CPU tensor format.
 # To do so, replace the previous line with the following:
 # checkpoint = torch.load("model.tar", map_location=torch.device('cpu'))
